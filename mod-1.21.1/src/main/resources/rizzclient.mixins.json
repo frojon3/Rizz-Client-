@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "pl.rizz.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["EntityMixin", "CameraMixin", "MouseMixin", "GameRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

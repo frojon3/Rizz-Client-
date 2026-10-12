@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "rizzclient",
+  "version": "1.0.0",
+  "name": "Rizz Client",
+  "description": "Rizz Client Core - keystrokes, freelook, zoom i wiecej.",
+  "authors": ["Rizz"],
+  "environment": "client",
+  "entrypoints": { "client": ["pl.rizz.client.RizzClient"] },
+  "mixins": ["rizzclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
