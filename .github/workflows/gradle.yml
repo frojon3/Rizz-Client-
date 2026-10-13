@@ -21,14 +21,22 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
 
-    - name: Setup and Build Mod 1.21.1
+    # --- KONFIGURACJA I BUDOWANIE MODA 1.21.1 ---
+    - name: Setup Gradle for Mod 1.21.1
       uses: gradle/actions/setup-gradle@v4
       with:
         build-root-directory: ./mod-1.21.1
-        arguments: build
 
-    - name: Setup and Build Mod 1.21.11
+    - name: Build Mod 1.21.1
+      run: ./gradlew build
+      working-directory: ./mod-1.21.1
+
+    # --- KONFIGURACJA I BUDOWANIE MODA 1.21.11 ---
+    - name: Setup Gradle for Mod 1.21.11
       uses: gradle/actions/setup-gradle@v4
       with:
         build-root-directory: ./mod-1.21.11
-        arguments: build
+
+    - name: Build Mod 1.21.11
+      run: ./gradlew build
+      working-directory: ./mod-1.21.11
