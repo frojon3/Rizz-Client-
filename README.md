@@ -25,7 +25,7 @@ Struktura:
 ## W grze
 - Prawy Shift -> menu Rizz Client
 - Freelook: Lewy Alt, Zoom: C (Opcje > Sterowanie > Rizz Client)
-- ESC -> logo + nick w prawym dolnym rogu
+- ESC -> logo + nick w prawym dolnym rogu.
 
 ## FPS Boost (przelacznik w launcherze)
 - mody: Sodium, Lithium + FerriteCore, Entity Culling, ImmediatelyFast, ModernFix, More Culling, Dynamic FPS
